@@ -24,7 +24,7 @@ def submit_post(request):
     if text:
         status = Status(user=user, text=text)
         status.save()
-        return redirect('/status')
+        return redirect(f'/stag--{APP_CODE}/status')
     return render(request, 'my_post.html')
 
 
