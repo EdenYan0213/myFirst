@@ -52,12 +52,6 @@ DATABASES = {
         "NAME": "mydatabase",  # noqa
         "USER": "root",
         "PASSWORD": "root",
-        "NAME": APP_CODE,  # noqa
-        "USER": "root",
-        "PASSWORD": "",
-        "NAME": "mydatabase",  # noqa
-        "USER": "root",
-        "PASSWORD": "root",
         "HOST": "localhost",
         "PORT": "3306",
     },
