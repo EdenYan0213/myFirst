@@ -35,6 +35,10 @@ from blueapps.conf.log import get_logging_config_dict
 INSTALLED_APPS += (  # noqa
     "home_application",
     "mako_application",
+<<<<<<< HEAD
+=======
+    "moments",
+>>>>>>> 0ecbed8 (init)
 )
 
 # 这里是默认的中间件，大部分情况下，不需要改动
@@ -105,7 +109,11 @@ LOGGING = get_logging_config_dict(locals())
 
 # 初始化管理员列表，列表中的人员将拥有预发布环境和正式环境的管理员权限
 # 注意：请在首次提测和上线前修改，之后的修改将不会生效
+<<<<<<< HEAD
 INIT_SUPERUSER = []
+=======
+INIT_SUPERUSER = ["202230490303X"]
+>>>>>>> 0ecbed8 (init)
 
 
 # 使用mako模板时，默认打开的过滤器：h(过滤html)
