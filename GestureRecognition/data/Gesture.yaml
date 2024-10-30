@@ -1,0 +1,7 @@
+train: D:\pycharmprof\pythonProject\codes\yolov5-master\VOC2024\train.txt
+val: D:\pycharmprof\pythonProject\codes\yolov5-master\VOC2024\val.txt
+
+#number of classes
+nc: 10
+
+names: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
