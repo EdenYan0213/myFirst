@@ -8,7 +8,7 @@ from io import BytesIO
 ua={"user-agent":
 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"}
 # 上传文件
-url = 'http://222.201.134.240:5000/predict'
+url = 'http://localhost:5000/predict'
 # files = {'file': open('Gesture/images/val/2_0_1.jpg', 'rb')}  # 替换为你的图像路径
 files = [
     ('files', open('Gesture/images/val/2_0_1.jpg', 'rb')),
