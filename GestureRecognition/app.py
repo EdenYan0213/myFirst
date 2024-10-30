@@ -12,7 +12,7 @@ if plt == 'Windows':
 app = Flask(__name__)
 
 
-model = torch.hub.load('.', 'custom', path="runs/train/exp21/weights/best.pt", source='local')
+model = torch.hub.load('.', 'custom', path="model/best.pt", source='local')
 
 
 

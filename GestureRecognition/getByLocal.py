@@ -9,7 +9,7 @@ if plt == 'Windows':
    pathlib.PosixPath = pathlib.WindowsPath
 
 # Load model
-model = torch.hub.load('.', 'custom', path="runs/train/exp21/weights/best.pt", source='local')
+model = torch.hub.load('.', 'custom', path="model/best.pt", source='local')
 
 img_paths = [
     "Gesture/images/val/7_0_1.jpg",
